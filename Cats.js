@@ -36,7 +36,7 @@ function addCat() {
 	document.body.innerHTML += `<img src="${catsPics[catPic].url}" style="bottom: ${catY}px;right:${catX}px" alt="${catsPics[catPic].name}">`;
 	//	requestAnimationFrame(addCat)
 	cats = document.getElementsByTagName("img");
-	if (cats.length > 5) {
+	if (cats.length > 500) {
 		if (cats[0].alt.charAt(0) == "A") {
 			console.log("An " + cats[0].alt + " was removed");
 		} else {
