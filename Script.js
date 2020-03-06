@@ -22,6 +22,26 @@ var catsPics = {
 	5: {
 		name: "Toyger",
 		url: "https://i.ibb.co/nLfYG1C/Toyger.png"
+	},
+	6: {
+		name: "Cat 1",
+		url: "https://i.ya-webdesign.com/images/cats-image-white-background-png-1.png"
+	},
+	7: {
+		name: "Cat 2",
+		url: "https://www.pngonly.com/wp-content/uploads/2017/06/Cat-Sweet-PNG-File.png"
+	},
+	8: {
+		name: "Cat 3",
+		url: "https://lh3.googleusercontent.com/proxy/0CfSrL7NlqEa-sJgAsnfJHPMJECqlVp8Vp60Ha05IbPugdHPx2913ndWchdfTznJ8skvoXUb1a769H5O84TSzS54oBCxHhKnSocTmlumLuiCmPCDRRx4RevFcg"
+	},
+	9: {
+		name: "Cat 4",
+		url: "https://i2.wp.com/freepngimages.com/wp-content/uploads/2014/04/tabbycat_2.png?fit=220%2C220"
+	},
+	10: {
+		name: "Cat 5",
+		url: "https://pluspng.com/img-png/cat-png-cat-png-hd-1500.png"
 	}
 };
 var catPic;
