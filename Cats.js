@@ -34,7 +34,7 @@ function addCat() {
 	catX = Math.random() * windowW;
 	catY = Math.random() * windowH;
 	document.body.innerHTML += `<img src="${catsPics[catPic].url}" style="bottom: ${catY}px;right:${catX}px" alt="${catsPics[catPic].name}">`;
-	//	requestAnimationFrame(addCat)
+		requestAnimationFrame(addCat)
 	cats = document.getElementsByTagName("img");
 	if (cats.length > 500) {
 		if (cats[0].alt.charAt(0) == "A") {
@@ -46,7 +46,7 @@ function addCat() {
 	}
 }
 addCat();
-setInterval(addCat, 100);
+//setInterval(addCat, 100);
 window.addEventListener("resize", function() {
 	windowW = window.innerWidth;
 	windowH = window.innerHeight;
