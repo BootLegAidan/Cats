@@ -1,0 +1,12 @@
+img {
+	position: absolute;
+	width: 150px;
+	z-index: -1
+}
+h1{
+	  background: -webkit-linear-gradient(grey, black);
+	font-size: 72px;
+	  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	z-index: 9999
+}
